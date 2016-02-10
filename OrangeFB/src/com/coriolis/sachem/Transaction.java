@@ -166,7 +166,7 @@ public class Transaction {
 		          SimpleFormatter formatter = new SimpleFormatter();  
 		          fh.setFormatter(formatter);  
 
-		          // the following statement is used to log any messages  
+		          // géneration de log
 		          logger.info(message);  
 
 		      } catch (SecurityException e) {  
